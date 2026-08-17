@@ -1,0 +1,11 @@
+# Ignore environment variables file
+.env
+
+# Ignore python cache
+__pycache__/
+*.pyc
+
+# Ignore generated media
+generated_image_*.png
+generated_video_*.mp4
+generated_music_*.wav
