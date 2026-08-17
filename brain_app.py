@@ -67,7 +67,7 @@ if prompt := st.chat_input("What would you like me to do?"):
 
     # Agent response
     with st.chat_message("assistant"):
-        if ("image" in prompt.lower() or "music" in prompt.lower()) and not os.getenv("HUGGINGFACE_API_TOKEN"):
+        if (any(word in prompt.lower() for word in ["image", "music", "video", "picture", "photo", "clip", "song"])) and not os.getenv("HUGGINGFACE_API_TOKEN"):
             st.error("Please enter a Hugging Face API Token above to generate media.")
             st.stop()
             
@@ -113,4 +113,4 @@ if prompt := st.chat_input("What would you like me to do?"):
                 st.session_state.messages.append(msg_data)
                 
             except Exception as e:
-                st.error(f"An error occurred: {e}. Please ensure Ollama is running and has the llama3.2 model downloaded.")
+                st.error(f"An error occurred: {e}. If it's a connection issue, please check your internet or Hugging Face token. Otherwise, ensure Ollama is running and has the '{selected_model}' model downloaded.")
