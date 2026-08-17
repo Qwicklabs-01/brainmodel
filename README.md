@@ -96,7 +96,8 @@ Running this in Termux on an Android phone gives you a full Linux environment, a
 **1. Install the Correct Termux:**
 - ⚠️ **CRITICAL WARNING:** Do not download Termux from the Google Play Store (it is outdated and broken).
 - Option 1 (Recommended): 👉 [Download Termux from F-Droid](https://f-droid.org/en/packages/com.termux/)
-- Option 2: 👉 [Download Termux from GitHub Releases](https://github.com/termux/termux-app/releases/latest)
+- Option 2: 👉 [Download Termux from GitHub Releases v0.118.3](https://github.com/termux/termux-app/releases/tag/v0.118.3) 
+  *(Scroll down to Assets and download `termux-app_v0.118.3+github-debug_arm64-v8a.apk` for modern phones, or `universal.apk` if unsure).*
 
 **2. Set up a Linux Environment in Termux:**
 Open the Termux app and run these exact commands:
