@@ -26,7 +26,8 @@ selected_model = st.sidebar.selectbox(
         "brainwriter",
         "brainanalyst",
         "braintutor",
-        "brainterminal"
+        "brainterminal",
+        "brainomnipro"
     )
 )
 st.sidebar.markdown("---")

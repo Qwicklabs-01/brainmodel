@@ -33,7 +33,8 @@ ollama create braintutor -f Modelfile.tutor
 
 Write-Host "Building Brain Terminal..."
 ollama create brainterminal -f Modelfile.terminal
+ollama create brainomnipro -f Modelfile.omnibrainpro
 
 Write-Host ""
-Write-Host "✅ All 11 Brain Team models have been successfully built!"
+Write-Host "Brain Team Mega-Roster successfully built! You now have 12 elite AI personas." -ForegroundColor Green
 Write-Host "You can now chat with them by running: ollama run <modelname>"

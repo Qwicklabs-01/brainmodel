@@ -3,7 +3,7 @@
 
 Welcome to the Brain Model project! This project consists of two powerful parts:
 1. **The Brain Model Web App:** A Streamlit-based UI that allows you to chat with AI and generate high-quality Images, Videos, and Music via Hugging Face.
-2. **The Brain Team:** A massive 11-member team of highly specialized, elite AI personas running locally via Ollama.
+2. **The Brain Team:** A massive 12-member team of highly specialized, elite AI personas running locally via Ollama.
 
 ---
 
@@ -20,7 +20,7 @@ Since this project runs the AI models locally on your computer for maximum priva
 
 ## 👔 Step 2: Build the Specialized AI Team
 
-The Brain Team consists of 11 professional experts (Coder, SEO, Manager, Designer, etc.) all sharing the base `llama3.2` model to save hard drive space.
+The Brain Team consists of 12 professional experts (Coder, SEO, Manager, Designer, OmniBrain, etc.) all sharing the base `llama3.2` model to save hard drive space.
 
 To compile these specialized personas into your Ollama system, run:
 ```powershell
