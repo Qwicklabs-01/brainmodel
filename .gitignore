@@ -9,3 +9,7 @@ __pycache__/
 generated_image_*.png
 generated_video_*.mp4
 generated_music_*.wav
+
+# Ignore massive AI models and engines to prevent GitHub push errors
+*.gguf
+llamafile-*.exe
